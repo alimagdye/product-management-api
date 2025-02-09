@@ -47,31 +47,33 @@ npm run dev
 ```
 
 ## 📖 API Endpoints
-- Authentication
-| Method | Endpoint  | Description |
-|--------|----------|-------------|
-| POST   | `/signup` | Register a new user |
-| POST   | `/login` | Authenticate a user |
+### Authentication
+| Method | Endpoint   | Description |
+|--------|-----------|-------------|
+| **POST**  | `/signup` | Register a new user |
+| **POST**  | `/login`  | Authenticate a user |
 
 ---
-- Products
-| Method | Endpoint       | Description |
-|--------|---------------|-------------|
-| GET    | `/products`    | Get all products owned by the authenticated user |
-| GET    | `/products/:id` | Get a specific product by ID (if owned by the user) |
-| POST   | `/products`    | Create a new product |
-| PUT    | `/products/:id` | Update a product (if owned by the user) |
-| DELETE | `/products/:id` | Delete a product (if owned by the user) |
+
+### Products
+| Method  | Endpoint         | Description |
+|---------|-----------------|-------------|
+| **GET**    | `/products`        | Get all products owned by the authenticated user |
+| **GET**    | `/products/:id`    | Get a specific product by ID (if owned by the user) |
+| **POST**   | `/products`        | Create a new product |
+| **PUT**    | `/products/:id`    | Update a product (if owned by the user) |
+| **DELETE** | `/products/:id`    | Delete a product (if owned by the user) |
 
 ---
-- Updates
-| Method | Endpoint       | Description |
-|--------|---------------|-------------|
-| GET    | `/updates`    | Get all updates related to products owned by the user |
-| GET    | `/updates/:id` | Get a specific update by ID |
-| POST   | `/updates`    | Create an update for a product |
-| PUT    | `/updates/:id` | Update an update by ID |
-| DELETE | `/updates/:id` | Delete an update by ID |
+
+### Updates
+| Method  | Endpoint         | Description |
+|---------|-----------------|-------------|
+| **GET**    | `/updates`        | Get all updates related to products owned by the user |
+| **GET**    | `/updates/:id`    | Get a specific update by ID |
+| **POST**   | `/updates`        | Create an update for a product |
+| **PUT**    | `/updates/:id`    | Update an update by ID |
+| **DELETE** | `/updates/:id`    | Delete an update by ID |
 
 ---
 
