@@ -19,8 +19,8 @@ Product Management API is a Node.js backend built with Express, TypeScript, and 
 ## 🚀 Getting Started
 ### 1️⃣ Clone the Repository
 ```bash
-  git clone https://github.com/your-username/product-management-api.git
-  cd product-management-api
+git clone https://github.com/your-username/product-management-api.git
+cd product-management-api
 ```
 
 ### 2️⃣ Install Dependencies
