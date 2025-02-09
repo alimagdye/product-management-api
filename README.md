@@ -52,6 +52,7 @@ npm run dev
 |--------|----------|-------------|
 | POST   | `/signup` | Register a new user |
 | POST   | `/login` | Authenticate a user |
+
 ---
 - Products
 | Method | Endpoint       | Description |
@@ -61,6 +62,7 @@ npm run dev
 | POST   | `/products`    | Create a new product |
 | PUT    | `/products/:id` | Update a product (if owned by the user) |
 | DELETE | `/products/:id` | Delete a product (if owned by the user) |
+
 ---
 - Updates
 | Method | Endpoint       | Description |
@@ -70,6 +72,7 @@ npm run dev
 | POST   | `/updates`    | Create an update for a product |
 | PUT    | `/updates/:id` | Update an update by ID |
 | DELETE | `/updates/:id` | Delete an update by ID |
+
 ---
 
 ## 🛡 Authentication & Security
