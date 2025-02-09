@@ -12,6 +12,10 @@ const app = express(); // create express app
 app.use(globalMiddleware); // use global middleware in the app
 
 // app.method(path, routeHandler)
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to the API product-management" });
+}); 
+
 app.post(
   "/signup",
   [
