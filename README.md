@@ -70,10 +70,10 @@ npm run dev
 | Method  | Endpoint         | Description |
 |---------|-----------------|-------------|
 | **GET**    | `/updates`        | Get all updates related to products owned by the user |
-| **GET**    | `/updates/:id`    | Get a specific update by ID |
-| **POST**   | `/updates`        | Create an update for a product |
-| **PUT**    | `/updates/:id`    | Update an update by ID |
-| **DELETE** | `/updates/:id`    | Delete an update by ID |
+| **GET**    | `/updates/:id`    | Get a specific update by ID for a product owned by the user |
+| **POST**   | `/updates`        | Create an update for a product owned by the user |
+| **PUT**    | `/updates/:id`    | Update an update by ID for a product owned by the user |
+| **DELETE** | `/updates/:id`    | Delete an update by ID for a product owned by the user |
 
 ---
 
