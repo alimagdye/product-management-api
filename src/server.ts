@@ -5,6 +5,7 @@ import { createUser, loginUser } from "./handlers/user";
 import { handleInputErrors } from "./middleware/validation";
 import { errorHandler, globalMiddleware } from "./middleware/globalMiddleware";
 import { body } from "express-validator";
+const PORT = process.env.PORT || 3000; // set the port for the server to listen on
 
 const app = express(); // create express app
 
@@ -40,6 +41,6 @@ app.use("/api", protect, router); // mount router components in the path: 'api' 
 
 app.use(errorHandler); // use error handler middleware in the app
 
-app.listen(5432, () => {
-  console.log("server is running on port 5432");
-}); // start the server on port 5432
+app.listen(PORT, () => {
+  console.log(`server is running on port ${PORT}`);
+}); // start the server on the specified port
