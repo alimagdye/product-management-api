@@ -93,7 +93,7 @@ export const updateProduct = async function (req, res) {
       data: newData, // update the product with the data object
     });
     res
-      .status(201)
+      .status(200)
       .json({ message: "Product updated successfully", data: product }); // send a response to the client
   } catch (error) {
     if (error.code === "P2025") {
