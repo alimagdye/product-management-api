@@ -28,7 +28,7 @@ export const createUser = async function (req, res) {
     }
 
     // else:
-    console.log("Error while creating user:", error.message);
+    console.error("Error while creating user:", error.message);
     res.status(400).json({ message: "User creation failed" }); // send a response to the client
     return;
   }
